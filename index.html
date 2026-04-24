@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Odiscom Construction</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1f2937;
+      background: #ffffff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: #0f766e;
+      font-size: 20px;
+    }
+
+    .cta {
+      background: #0f766e;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 60px 40px;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      color: #6b7280;
+      font-size: 18px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      padding: 12px 20px;
+      border-radius: 25px;
+      margin-right: 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .primary {
+      background: #0f766e;
+      color: white;
+    }
+
+    .secondary {
+      border: 1px solid #0f766e;
+      color: #0f766e;
+    }
+
+    .hero img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .services {
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    .services h2 {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #e5e7eb;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: left;
+    }
+
+    .card h3 {
+      margin-top: 10px;
+    }
+
+    footer {
+      padding: 40px;
+      text-align: center;
+      background: #f9fafb;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">ODISCOM CONSTRUCTION</div>
+  <a href="mailto:owners@odiscom.com" class="cta">Request Proposal</a>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Infrastructure construction built for real-world deployment.</h1>
+    <p>
+      Delivering telecom, civil, utility, and data center construction
+      with precision, accountability, and engineering-backed execution.
+    </p>
+
+    <div class="buttons">
+      <a href="mailto:owners@odiscom.com" class="btn primary">Request Proposal</a>
+      <a href="mailto:owners@odiscom.com" class="btn secondary">Submit Bid Opportunity</a>
+    </div>
+  </div>
+
+  <div>
+    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789" />
+  </div>
+</section>
+
+<section class="services">
+  <h2>Infrastructure construction delivered at scale</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Telecom Infrastructure</h3>
+      <p>Fiber, wireless, and tower construction programs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Heavy Civil Construction</h3>
+      <p>Roadways, grading, and drainage systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>Utility & Water Infrastructure</h3>
+      <p>Large pipe, feed line, and underground utilities.</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Center Construction</h3>
+      <p>Site development and infrastructure delivery.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Odiscom Construction LLC</p>
+  <p>owners@odiscom.com | (214) 392-3490</p>
+</footer>
+
+</body>
+</html>
